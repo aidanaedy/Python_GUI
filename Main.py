@@ -4,9 +4,11 @@ from tkinter import *
 window = Tk()
 window.title("Aidan's UI Window")
 
+
 # Define functions for the button options
 def button_click():
-  print("Button Clicked!")
+    print("Button Clicked!")
+
 
 # Add a label
 label = Label(window, text="Hello, Aidan!")
